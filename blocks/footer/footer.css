@@ -1,7 +1,30 @@
 @import url(./__link/footer__link.css);
+@import url(./__copyright/footer__copyright.css);
 
 .footer {
   display: flex;
   justify-content: space-between;
   margin-top: 90px;
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .footer {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    display: block;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }
