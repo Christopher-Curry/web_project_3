@@ -2,4 +2,12 @@
   font-size: 12px;
   line-height: 12px;
   color: #aaaaaa;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+}
+
+@media screen and (max-width: 767px) {
+  .places__url-heading {
+    visibility: hidden;
+  }
 }

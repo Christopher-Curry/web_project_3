@@ -13,6 +13,11 @@
   color: white;
 }
 
+.header__lang-link:hover {
+  color: white;
+  opacity: 0.8;
+}
+
 .header__lang-link:first-of-type {
   margin-right: 18px;
 }

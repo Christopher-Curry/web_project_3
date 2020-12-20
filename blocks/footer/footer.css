@@ -5,23 +5,26 @@
   display: flex;
   justify-content: space-between;
   margin-top: 90px;
+  max-width: 1184px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
   .footer {
     margin-left: 48px;
     margin-right: 48px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .footer {
     margin-left: 24px;
     margin-right: 24px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .footer {
     display: block;
     margin-left: 16px;

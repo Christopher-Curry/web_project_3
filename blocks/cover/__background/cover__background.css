@@ -1,5 +1,8 @@
 .cover__background {
-  background-image: url(../../../images/cover-route-66.jpg);
+  /* background-image: url(../../../images/cover-route-66.jpg); */
   background-repeat: no-repeat;
-  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  opacity: 0.3;
 }

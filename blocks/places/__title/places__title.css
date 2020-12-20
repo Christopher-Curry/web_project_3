@@ -1,8 +1,22 @@
 .places__title {
   font-size: 72px;
   line-height: 76px;
-  font-family: "inter-black";
   margin-top: 0;
   margin-bottom: 48px;
   width: 50%;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 1023px) {
+  .places__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }
