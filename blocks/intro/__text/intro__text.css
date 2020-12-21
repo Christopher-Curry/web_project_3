@@ -2,3 +2,10 @@
   font-size: 16px;
   line-height: 26px;
 }
+
+@media screen and (max-width: 767px) {
+  .intro__text {
+    margin-top: 32px;
+    margin-bottom: 34px;
+  }
+}
