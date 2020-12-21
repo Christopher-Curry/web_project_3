@@ -10,6 +10,8 @@ Throughout the project various techniques are used. Flex box to help wrap certai
 
 ### The link to GitHub Pages with a published project:
 
+https://christopher-curry.github.io/web_project_3/
+
 ### Overview
 
 - Intro
