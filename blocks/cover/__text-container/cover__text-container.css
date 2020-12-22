@@ -1,9 +1,5 @@
 .cover__text-container {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: inherit;
   z-index: 2;
   pointer-events: none;
 }
