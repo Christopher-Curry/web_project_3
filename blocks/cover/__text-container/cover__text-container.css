@@ -1,7 +1,9 @@
 .cover__text-container {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  height: 100%;
+  height: inherit;
+  z-index: 2;
+  pointer-events: none;
 }

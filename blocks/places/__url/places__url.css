@@ -1,9 +1,18 @@
 .places__url {
-  width: 50%;
+  width: calc(50% - 20px);
   align-self: flex-end;
   padding-bottom: 48px;
 }
-
+@media screen and (max-width: 1279px) {
+  .places__url {
+    width: calc(50% - 16px);
+  }
+}
+@media screen and (max-width: 1023px) {
+  .places__url {
+    width: calc(50% - 14px);
+  }
+}
 @media screen and (max-width: 767px) {
   .places__url {
     padding-bottom: 0;
